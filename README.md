@@ -11,3 +11,6 @@ The skills to be used will be:
   Visual Studio Code
   
 The project will be shared in slack in order to get some feedback.
+
+
+This text was added to test the branch merge on github.
