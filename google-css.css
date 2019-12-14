@@ -1,0 +1,123 @@
+@charset "utf-8";
+/* CSS Document */
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:white;
+  }
+  
+  li {
+    float: right;
+  }
+  
+  li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+a {
+    text-decoration: none;
+}
+
+a:hover, a:active{
+    text-decoration: underline;
+}
+
+  .hover-icon:hover {
+    background-color: grey;
+  }
+
+/*Main input CSS*/
+
+.main-input:hover{
+	border-color: grey;
+}
+.main-input{
+	width: 584px;
+	border-radius: 30px;
+	flex: 1;
+    display: flex;
+    padding: 5px 8px 0 16px;
+    padding-left: 14px;
+}
+
+/*Footer navBar CSS*/
+
+.navbar {
+  background: #f2f2f2;
+  overflow: hidden;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+	font-family: arial,sans-serif;
+	
+}
+.navbar a {
+  float: left;
+  display: block;
+  color: #5f6368;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 13px;
+	padding-left: 27px;
+}
+
+.navbar a:hover {
+  text-decoration: underline;
+}
+.right-links{
+	float: right !important;
+}
+
+
+/*Centering this thing*/
+.main-wrapper{
+	align-content: center;
+	align-items: center;
+	text-align: center;
+	padding-bottom: 35px;
+	height: 100%;
+
+}
+.lets-center-this{
+	display: inline-block;
+}
+
+
+/*Buttons CSS*/
+
+.buttons-padding{
+	padding-top: 18px;
+}
+.button-test:hover {
+	background-color: grey;
+	color:black;
+	border-color: grey;
+	
+}
+
+.button-test{
+    background-image: -webkit-linear-gradient(top,#f5f5f5,#f1f1f1);
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+    color: #5F6368;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
+
